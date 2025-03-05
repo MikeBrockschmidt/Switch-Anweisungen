@@ -99,7 +99,10 @@ void main() {
   // double durchschnitt = sum / zahlDerListe;
 
   print(sum);
-  // print('Die Durchschnittstemperatur beträgt: $durchschnitt °C');
+
+  double durchschnitt = sum / zahlDerListe;
+
+  print('Die Durchschnittstemperatur beträgt: $durchschnitt °C');
 
 //   // Am Ende soll die Durchschnittstemperatur ausgegeben werden, z.B.:
 //   // print('Die Durchschnittstemperatur beträgt: $durchschnitt °C');
