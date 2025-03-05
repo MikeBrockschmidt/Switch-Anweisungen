@@ -40,44 +40,48 @@ void main() {
   // ich ab ob Zahl oder Null
 
   if (temperaturDaten[0] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[0]);
   }
+
   if (temperaturDaten[1] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[1]);
   }
   if (temperaturDaten[2] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[2]);
   }
   if (temperaturDaten[3] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[3]);
   }
   if (temperaturDaten[4] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[4]);
   }
   if (temperaturDaten[5] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[5]);
   }
   if (temperaturDaten[6] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[6]);
   }
   if (temperaturDaten[7] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[7]);
   }
   if (temperaturDaten[8] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[8]);
   }
   if (temperaturDaten[9] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[9]);
   }
   if (temperaturDaten[10] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[10]);
   }
   if (temperaturDaten[11] != null) {
-    listeOhneNull.add(temperaturDaten);
+    listeOhneNull.add(temperaturDaten[11]);
   }
-  if (temperaturDaten[12] != null) {
-    listeOhneNull.add(temperaturDaten);
-  }
+
+  // print(listeOhneNull);
+
+  int zahlDerListe = listeOhneNull.length;
+
+  print(zahlDerListe);
 
   // Am Ende soll die Durchschnittstemperatur ausgegeben werden, z.B.:
   // print('Die Durchschnittstemperatur beträgt: $durchschnitt °C');
