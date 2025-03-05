@@ -33,6 +33,52 @@ void main() {
 
   // Dein Code hier...
 
+  List<double?> listeOhneNull = [];
+
+  // Ich möchte als erstes zählen wieviel Werte in der Liste sind,
+  // damit ich diese mit dem Ergebnis aller teilen kann. Also frage
+  // ich ab ob Zahl oder Null
+
+  if (temperaturDaten[0] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[1] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[2] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[3] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[4] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[5] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[6] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[7] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[8] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[9] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[10] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[11] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+  if (temperaturDaten[12] != null) {
+    listeOhneNull.add(temperaturDaten);
+  }
+
   // Am Ende soll die Durchschnittstemperatur ausgegeben werden, z.B.:
   // print('Die Durchschnittstemperatur beträgt: $durchschnitt °C');
 }
