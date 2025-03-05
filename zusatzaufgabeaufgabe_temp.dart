@@ -77,27 +77,27 @@ void main() {
     listeOhneNull.add(temperaturDaten[11]);
   }
 
-  // print(listeOhneNull);
+  print(listeOhneNull);
 
-  double zahlDerListe = listeOhneNull.length;
+  int zahlDerListe = listeOhneNull.length;
 
-  // print(zahlDerListe);
+  print(zahlDerListe);
 
   //Jetzt muß ich die Zahlen der Liste addieren
 
-  double? durchschnitt = (listeOhneNull[0] +
+  double durchschnitt = (listeOhneNull[0] +
           listeOhneNull[1] +
           listeOhneNull[2] +
           listeOhneNull[3] +
           listeOhneNull[4] +
           listeOhneNull[5] +
           listeOhneNull[6] +
-          listeOhneNull[7] +
-          listeOhneNull[8]) /
+          listeOhneNull[7]) /
       zahlDerListe;
 
+  print(durchschnitt);
   print('Die Durchschnittstemperatur beträgt: $durchschnitt °C');
 
-  // Am Ende soll die Durchschnittstemperatur ausgegeben werden, z.B.:
-  // print('Die Durchschnittstemperatur beträgt: $durchschnitt °C');
+//   // Am Ende soll die Durchschnittstemperatur ausgegeben werden, z.B.:
+//   // print('Die Durchschnittstemperatur beträgt: $durchschnitt °C');
 }
