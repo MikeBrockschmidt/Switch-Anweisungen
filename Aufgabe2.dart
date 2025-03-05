@@ -1,46 +1,35 @@
-switch (sex) {
-   case 'male':
-     switch (age) {
-       case 20:
-       case 21:
-       case 22:
-       case 23:
-       case 24:
-       case 25:
-         print("Im Schnitt 181,4m");
-       case 26:
-       case 27:
-       case 28:
-       case 29:
-       case 30:
-         print("Im Schnitt 181,3m");
-       case 31:
-       case 32:
-       case 33:
-       case 34:
-       case 35:
-         print("Im Schnitt 180,4m");
-     }
-   case 'female':
-     switch (age) {
-       case 20:
-       case 21:
-       case 22:
-       case 23:
-       case 24:
-       case 25:
-         print("Im Schnitt 167,5m");
-       case 26:
-       case 27:
-       case 28:
-       case 29:
-       case 30:
-         print("Im Schnitt 167,3m");
-       case 31:
-       case 32:
-       case 33:
-       case 34:
-       case 35:
-         print("Im Schnitt 167,2m");
-     }
- }
+void main() {
+  String sex = 'male';
+  int age = 20;
+
+  switch (sex) {
+    case 'male':
+      switch (age) {
+        case >= 20 && <= 25:
+          print("Mann im Alter $age - im Schnitt 181,4 m");
+        case > 25 && <= 30:
+          print("Mann im Alter $age - im Schnitt 181,3 m");
+        case > 30 && <= 35:
+          print("Mann im Alter $age - im Schnitt 180,4 m");
+        default:
+          print("Die Durchschnittsgröße von Mann im Alter $age ist unbekannt");
+      }
+  }
+
+  String sex = 'female';
+  int age = 20;
+
+  switch (sex) {
+    case 'male':
+      switch (age) {
+        case >= 20 && <= 25:
+          print("Frau im Alter $age - Im Schnitt 167,5m");
+        case > 25 && <= 30:
+          print("Frau im Alter $age - Schnitt 167,3m");
+        case > 30 && <= 35:
+          print("Frau im Alter $age - Im Schnitt 167,2m");
+        default:
+          print("Die Durchschnittsgröße von Mann im Alter $age ist unbekannt");
+      }
+  }
+}
